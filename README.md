@@ -1,2 +1,2 @@
 # Erica-Brogan-Glass
-Built using Bootstrap
+Built using Bootstrap with large images for accessibility.
