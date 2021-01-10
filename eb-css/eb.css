@@ -1,0 +1,63 @@
+
+.display-4 {
+    text-align: center;
+}
+.lead {
+    text-align: center;
+}
+
+.eb-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Responsive layout - makes a 1 column layout instead of a multi column layout */
+@media (max-width: 800px) {
+    .eb-intro {
+      flex-direction: column;
+    }
+}
+
+.eb-intro img{
+    padding-right: 50px;
+    transition: 1s ease;
+  }
+  .eb-intro img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+.eb-titles {
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+/* Responsive layout - makes a 1 column layout instead of a multi column layout */
+@media (max-width: 800px) {
+    .d-flex {
+      flex-direction: column;
+    }
+}
+
+/* FOOTER background is black */
+.eb-footer{
+    background-color: #6c757d;   
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .eb-footer a {
+    text-decoration: none;
+    color: orange;
+  }
+  .eb-footer a:hover {
+    color: deeppink;
+  }
+
