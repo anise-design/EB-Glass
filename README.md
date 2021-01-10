@@ -1,2 +1,2 @@
-# EB-Glass
-Erica Brogan Glass
+# Erica-Brogan-Glass
+Built using Bootstrap
